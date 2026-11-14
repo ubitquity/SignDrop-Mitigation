@@ -1,0 +1,10 @@
+Manual Verification
+If you prefer not to use the script, you can manually verify and mitigate the issue:
+
+Open regedit.exe as Administrator.
+
+Navigate to HKLM\SYSTEM\CurrentControlSet\Services\CLFS\Authentication.
+
+If Mode is set to 0 or 1, change it to 2.
+
+Open Windows Security and manually check for Virus & threat protection updates.
