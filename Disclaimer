@@ -1,0 +1,2 @@
+Disclaimer
+This script modifies system registry keys related to logging services. While setting the mode to 2 mitigates the specific attack path, altering CLFS configurations may affect system logging behaviors on experimental builds. Test in a staging environment before deploying to production. Provided as-is with no warranties.
